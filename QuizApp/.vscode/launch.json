@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run TestDB",
+      "request": "launch",
+      "mainClass": "TestDB",
+      "cwd": "${workspaceFolder}",
+      "classPaths": [
+        "lib/*",
+        "src"
+      ]
+    }
+  ]
+}

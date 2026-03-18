@@ -1,0 +1,35 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>IndexPage</servlet-name>
+        <jsp-file>/index.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>IndexPage</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>CalculatePage</servlet-name>
+        <jsp-file>/calculate.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CalculatePage</servlet-name>
+        <url-pattern>/calculate</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ResultPage</servlet-name>
+        <jsp-file>/result.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ResultPage</servlet-name>
+        <url-pattern>/result</url-pattern>
+    </servlet-mapping>
+
+</web-app>
